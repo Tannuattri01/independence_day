@@ -1,0 +1,52 @@
+body{
+    background-image:url(./image/wp2764221.webp);
+    width: 100%;
+}
+.landing_page{
+    background-color: white;
+    height:700px;
+    width: 650px;
+    margin: auto;
+    margin-top: 19px;
+}
+.text{
+    position: relative;
+    bottom: 82px;
+    left: 120px;
+    font-size: 20px;
+    width: min-content;
+}
+.day{
+    font-size: 50px;
+    color: green;
+    width: min-content;
+}
+.august{
+   position: relative;
+   left: 130px;
+   bottom:30px;
+   font-size: 30px;
+   color: orange;
+   width: min-content;
+}
+
+.img2{
+    width: 196px;
+    height: 622px;
+}
+@media screen and (max-width:688px){
+ .landing_page{
+    height: fit-content;
+    width: fit-content;
+ }
+ .img2{
+    margin-left: 70px;
+ }
+ .day{
+    margin-right: 76px !important;
+
+ }
+ .august.text{
+    width: min-content !important;
+ }
+   }
